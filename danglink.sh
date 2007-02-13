@@ -2,9 +2,9 @@
 #
 # danglink - find dangling symlinks (that point to missing files)
 #
-# @(#) $Revision$
-# @(#) $Id$
-# @(#) $Source$
+# @(#) $Revision: 1.1 $
+# @(#) $Id: danglink.sh,v 1.1 2007/02/13 23:01:08 chongo Exp chongo $
+# @(#) $Source: /usr/local/src/cmd/danglink/RCS/danglink.sh,v $
 #
 # Copyright (c) 2007 by Landon Curt Noll.  All Rights Reserved.
 #
@@ -39,5 +39,5 @@ fi
 
 # seach for dangling symlinks
 #
-symlinks -r $@ 2>/dev/null | grep '^dangling:'
+symlinks -r $@ | grep '^dangling:'
 exit 0

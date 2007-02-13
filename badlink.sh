@@ -2,9 +2,9 @@
 #
 # badlink - find dangling, long or messy symlinks
 #
-# @(#) $Revision$
-# @(#) $Id$
-# @(#) $Source$
+# @(#) $Revision: 1.1 $
+# @(#) $Id: badlink.sh,v 1.1 2007/02/13 23:01:08 chongo Exp chongo $
+# @(#) $Source: /usr/local/src/cmd/danglink/RCS/badlink.sh,v $
 #
 # Copyright (c) 2007 by Landon Curt Noll.  All Rights Reserved.
 #
@@ -39,5 +39,5 @@ fi
 
 # seach for dangling symlinks
 #
-symlinks -r $@ 2>/dev/null | egrep '^dangling:|^messy:|^lengthy:'
+symlinks -r $@ | egrep '^dangling:|^messy:|^lengthy:'
 exit 0
