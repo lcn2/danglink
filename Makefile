@@ -4,8 +4,8 @@
 # danglink - find dangling symlinks
 #
 # @(#) $Revision: 1.1 $
-# @(#) $Id: Makefile,v 1.1 2006/05/22 18:12:27 chongo Exp $
-# @(#) $Source: /usr/local/src/cmd/xargs0/RCS/Makefile,v $
+# @(#) $Id: Makefile,v 1.1 2007/02/13 23:01:08 chongo Exp root $
+# @(#) $Source: /usr/local/src/bin/danglink/RCS/Makefile,v $
 #
 # Copyright (c) 2007 by Landon Curt Noll.  All Rights Reserved.
 #
@@ -37,7 +37,7 @@ RM= rm
 LN= ln
 CHMOD= chmod
 
-TOPNAME= cmd
+TOPNAME= bin
 INSTALL= install
 
 DESTDIR= /usr/local/bin
