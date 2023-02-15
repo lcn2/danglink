@@ -3,8 +3,8 @@
 #
 # danglink - find dangling symlinks
 #
-# @(#) $Revision: 1.1 $
-# @(#) $Id: Makefile,v 1.1 2007/02/13 23:01:08 chongo Exp root $
+# @(#) $Revision: 1.2 $
+# @(#) $Id: Makefile,v 1.2 2015/09/06 06:58:46 root Exp $
 # @(#) $Source: /usr/local/src/bin/danglink/RCS/Makefile,v $
 #
 # Copyright (c) 2007 by Landon Curt Noll.  All Rights Reserved.
